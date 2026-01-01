@@ -1,0 +1,5252 @@
+{
+  "metadata": {
+    "created": "2026-01-01T13:02:57.893140",
+    "source_files": [
+      "batch_1.jsonl",
+      "batch_10.jsonl",
+      "batch_11.jsonl",
+      "batch_12.jsonl",
+      "batch_13.jsonl",
+      "batch_14.jsonl",
+      "batch_2.jsonl",
+      "batch_3.jsonl",
+      "batch_4.jsonl",
+      "batch_5.jsonl",
+      "batch_6.jsonl",
+      "batch_7.jsonl",
+      "batch_8.jsonl",
+      "batch_9.jsonl"
+    ],
+    "merger_version": "1.0.0",
+    "total_entries": 420,
+    "conflict_strategy": "merge_all_senses"
+  },
+  "parents": {
+    "TemporalEntity": "Entity",
+    "Relation": "Entity",
+    "AbstractEntity": "Entity",
+    "Entity": null,
+    "PhysicalObject": "Entity",
+    "InformationalEntity": "Entity",
+    "Event": "Entity",
+    "Process": "Entity",
+    "Quality": "Entity",
+    "Location": "Entity",
+    "the": "DefiniteSpecifier",
+    "of": "GenitiveRelation",
+    "and": "IntersectionOperator",
+    "to": "DestinationVector",
+    "in": "ContainmentRelation",
+    "for": "BenefactiveRelation",
+    "is": "IdentityCopula",
+    "on": "SupportRelation",
+    "that": "DistalReference",
+    "by": "AgencyRelation",
+    "this": "ProximalReference",
+    "with": "ComitativeRelation",
+    "you": "TargetAgentReference",
+    "it": "InanimateReference",
+    "not": "NegationOperator",
+    "or": "UnionOperator",
+    "be": "ExistentialRoot",
+    "are": "IdentityCopula",
+    "from": "SourceVector",
+    "at": "PointLocation",
+    "as": "RoleDefinition",
+    "your": "PossessiveSpecifier",
+    "all": "UniversalQuantifier",
+    "have": "PossessionState",
+    "new": "NoveltyAttribute",
+    "more": "AugmentativeQuantifier",
+    "an": "IndefiniteSpecifier",
+    "was": "PastIdentityCopula",
+    "we": "CollectiveAgentReference",
+    "will": "FutureModal",
+    "same": "IdentityAttribute",
+    "pages": "DataEntity",
+    "uk": "GeoPoliticalEntity",
+    "version": "SpecificationEntity",
+    "section": "StructuralComponent",
+    "own": "PossessionState",
+    "found": "DiscoveryEvent",
+    "sports": "RecreationalActivity",
+    "house": "FacilityEntity",
+    "related": "AssociationState",
+    "security": "SystemState",
+    "both": "UnionOperator",
+    "county": "GeoPoliticalEntity",
+    "american": "OriginAttribute",
+    "photo": "VisualMedia",
+    "game": "SimulationProcess",
+    "members": "ConstituentEntity",
+    "power": "EnergyResource",
+    "while": "ConditionalOperator",
+    "care": "MaintenanceAction",
+    "network": "NetworkSystem",
+    "down": "DirectionalVector",
+    "computer": "ComputationalDevice",
+    "systems": "System",
+    "three": "NumericQuantifier",
+    "total": "AggregationValue",
+    "place": "SpatialRegion",
+    "end": "TerminationState",
+    "following": "SequentialOperator",
+    "download": "AcquisitionAction",
+    "him": "TargetAgentReference",
+    "without": "ConstraintAbsence",
+    "per": "RelationalOperator",
+    "access": "AcquisitionAction",
+    "think": "SimulationProcess",
+    "north": "DirectionalVector",
+    "resources": "ConstituentEntity",
+    "current": "TemporalDimension",
+    "posts": "DataEntity",
+    "big": "AugmentativeQuantifier",
+    "media": "VisualMedia",
+    "law": "ConstraintDefinition",
+    "control": "CausalOperator",
+    "water": "PhysicalObject",
+    "history": "TemporalDimension",
+    "pictures": "VisualMedia",
+    "size": "ScopeAttribute",
+    "art": "VisualMedia",
+    "personal": "IdentityAttribute",
+    "since": "TemporalDimension",
+    "including": "UnionOperator",
+    "guide": "SpecificationEntity",
+    "shop": "CommercialEntity",
+    "directory": "LinearStructure",
+    "board": "StructuralComponent",
+    "location": "PointLocation",
+    "change": "Process",
+    "white": "ValueAttribute",
+    "text": "DataEntity",
+    "small": "RestrictiveModifier",
+    "rating": "ValueAttribute",
+    "rate": "ValueAttribute",
+    "government": "GeoPoliticalEntity",
+    "children": "ConstituentEntity",
+    "during": "ContainmentRelation",
+    "usa": "GeoPoliticalEntity",
+    "return": "TransmissionAction",
+    "students": "RoleDefinition",
+    "shopping": "AcquisitionAction",
+    "account": "IdentityAttribute",
+    "times": "TemporalDimension",
+    "sites": "NetworkNode",
+    "level": "ScopeAttribute",
+    "digital": "SystemState",
+    "profile": "DataEntity",
+    "previous": "SequentialOperator",
+    "form": "InterfaceUnit",
+    "events": "Process",
+    "love": "IntentState",
+    "old": "SystemState",
+    "john": "TargetAgentReference",
+    "main": "SelectionSpecifier",
+    "call": "ExecutionOperator",
+    "hours": "TemporalDimension",
+    "image": "VisualMedia",
+    "department": "ConstituentEntity",
+    "title": "IdentifierAttribute",
+    "description": "SpecificationEntity",
+    "non": "NegationOperator",
+    "insurance": "CommercialEntity",
+    "another": "AlternativeSpecifier",
+    "why": "InterrogativeSpecifier",
+    "shall": "ObligationModal",
+    "property": "SpecificationEntity",
+    "class": "SpecificationEntity",
+    "cd": "ExecutionOperator",
+    "still": "TemporalDimension",
+    "money": "AggregationValue",
+    "quality": "ValueAttribute",
+    "every": "UniversalQuantifier",
+    "listing": "DataEntity",
+    "content": "DataEntity",
+    "country": "GeoPoliticalEntity",
+    "private": "ScopeAttribute",
+    "little": "ValueAttribute",
+    "visit": "UtilizationAction",
+    "save": "MaintenanceAction",
+    "tools": "ComputationalDevice",
+    "low": "ValueAttribute",
+    "reply": "TransmissionAction",
+    "customer": "TargetAgentReference",
+    "december": "TemporalDimension",
+    "compare": "RelationalOperator",
+    "movies": "VisualMedia",
+    "include": "UnionOperator",
+    "college": "FacilityEntity",
+    "value": "AggregationValue",
+    "article": "DataEntity",
+    "york": "GeoPoliticalEntity",
+    "man": "TargetAgentReference",
+    "card": "InterfaceUnit",
+    "jobs": "RoleDefinition",
+    "provide": "TransmissionAction",
+    "food": "EnergyResource",
+    "source": "OriginAttribute",
+    "author": "RoleDefinition",
+    "different": "ContrastiveOperator",
+    "press": "CommercialEntity",
+    "learn": "AcquisitionAction",
+    "sale": "TransmissionAction",
+    "around": "SpatialRegion",
+    "print": "TransmissionAction",
+    "course": "LinearStructure",
+    "job": "RoleDefinition",
+    "canada": "GeoPoliticalEntity",
+    "process": "Process",
+    "teen": "RoleDefinition",
+    "room": "SpatialRegion",
+    "stock": "AggregationValue",
+    "training": "AcquisitionAction",
+    "too": "AugmentativeQuantifier",
+    "credit": "ValueAttribute",
+    "point": "PointLocation",
+    "join": "UnionOperator",
+    "science": "System",
+    "men": "RoleDefinition",
+    "categories": "SpecificationEntity",
+    "advanced": "ValueAttribute",
+    "west": "DirectionalVector",
+    "sales": "TransmissionAction",
+    "home": "PointLocation",
+    "can": "CapabilityModal",
+    "us": "CollectiveAgentReference",
+    "about": "RelationalOperator",
+    "if": "ConditionalOperator",
+    "page": "InterfaceUnit",
+    "my": "PossessiveSpecifier",
+    "has": "PossessionState",
+    "search": "QueryAction",
+    "free": "ConstraintAbsence",
+    "but": "ContrastiveOperator",
+    "our": "PossessiveSpecifier",
+    "one": "UnitQuantifier",
+    "other": "AlternativeSpecifier",
+    "do": "ExecutionOperator",
+    "no": "NegationOperator",
+    "information": "DataEntity",
+    "time": "TemporalDimension",
+    "they": "TargetAgentReference",
+    "site": "NetworkNode",
+    "he": "TargetAgentReference",
+    "up": "DirectionalVector",
+    "may": "PossibilityModal",
+    "what": "InterrogativeSpecifier",
+    "which": "SelectionSpecifier",
+    "their": "PossessiveSpecifier",
+    "news": "DataEntity",
+    "out": "ExteriorState",
+    "use": "UtilizationAction",
+    "any": "UniversalQuantifier",
+    "there": "DistalReference",
+    "see": "QueryAction",
+    "only": "SelectionSpecifier",
+    "so": "RelationalOperator",
+    "his": "PossessiveSpecifier",
+    "when": "TemporalDimension",
+    "contact": "InterfaceUnit",
+    "here": "ProximalReference",
+    "business": "System",
+    "who": "TargetAgentReference",
+    "web": "System",
+    "also": "UnionOperator",
+    "now": "TemporalDimension",
+    "help": "SupportRelation",
+    "get": "QueryAction",
+    "pm": "TemporalDimension",
+    "view": "InterfaceUnit",
+    "online": "State",
+    "first": "SelectionSpecifier",
+    "am": "IdentityCopula",
+    "been": "PastIdentityCopula",
+    "would": "ConditionalOperator",
+    "how": "InterrogativeSpecifier",
+    "were": "PastIdentityCopula",
+    "me": "TargetAgentReference",
+    "services": "System",
+    "some": "IndefiniteSpecifier",
+    "these": "ProximalReference",
+    "click": "ExecutionOperator",
+    "its": "PossessiveSpecifier",
+    "like": "RelationalOperator",
+    "service": "InterfaceUnit",
+    "than": "RelationalOperator",
+    "find": "QueryAction",
+    "price": "ValueAttribute",
+    "date": "TemporalDimension",
+    "back": "DirectionalVector",
+    "top": "PointLocation",
+    "people": "CollectiveAgentReference",
+    "had": "PossessionState",
+    "list": "DataEntity",
+    "name": "IdentifierAttribute",
+    "just": "RestrictiveModifier",
+    "over": "DirectionalVector",
+    "state": "State",
+    "year": "TemporalDimension",
+    "day": "TemporalDimension",
+    "into": "DestinationVector",
+    "email": "DataEntity",
+    "two": "NumericQuantifier",
+    "health": "SystemState",
+    "world": "EnvironmentContext",
+    "re": "ReferenceMarker",
+    "next": "SequentialOperator",
+    "used": "UtilizationAction",
+    "go": "ExecutionOperator",
+    "work": "Process",
+    "last": "SequentialOperator",
+    "most": "AugmentativeQuantifier",
+    "products": "CommercialEntity",
+    "music": "DataEntity",
+    "buy": "Action",
+    "data": "DataEntity",
+    "make": "Action",
+    "them": "CollectiveAgentReference",
+    "should": "ObligationModal",
+    "product": "CommercialEntity",
+    "system": "System",
+    "post": "Action",
+    "her": "PossessiveSpecifier",
+    "city": "PointLocation",
+    "add": "UnionOperator",
+    "policy": "AbstractObject",
+    "number": "NumericQuantifier",
+    "such": "ReferenceMarker",
+    "please": "InterfaceUnit",
+    "available": "SystemState",
+    "copyright": "AbstractObject",
+    "support": "SupportRelation",
+    "message": "DataEntity",
+    "after": "SequentialOperator",
+    "best": "ValueAttribute",
+    "software": "DataEntity",
+    "then": "SequentialOperator",
+    "jan": "TemporalDimension",
+    "good": "ValueAttribute",
+    "video": "DataEntity",
+    "well": "ValueAttribute",
+    "where": "InterrogativeSpecifier",
+    "info": "DataEntity",
+    "rights": "AbstractObject",
+    "public": "ValueAttribute",
+    "books": "PhysicalObject",
+    "high": "ValueAttribute",
+    "school": "System",
+    "through": "DirectionalVector",
+    "each": "UniversalQuantifier",
+    "links": "DataEntity",
+    "she": "TargetAgentReference",
+    "review": "Process",
+    "years": "TemporalDimension",
+    "order": "SequentialOperator",
+    "very": "AugmentativeQuantifier",
+    "privacy": "SystemState",
+    "book": "PhysicalObject",
+    "items": "DataEntity",
+    "company": "CommercialEntity",
+    "read": "QueryAction",
+    "group": "CollectiveAgentReference",
+    "need": "ObligationModal",
+    "many": "AugmentativeQuantifier",
+    "user": "TargetAgentReference",
+    "said": "Process",
+    "de": "GenitiveRelation",
+    "does": "ExecutionOperator",
+    "set": "DataEntity",
+    "under": "ContainmentRelation",
+    "general": "ValueAttribute",
+    "research": "Process",
+    "university": "System",
+    "january": "TemporalDimension",
+    "mail": "DataEntity",
+    "full": "ValueAttribute",
+    "map": "DataEntity",
+    "reviews": "DataEntity",
+    "program": "System",
+    "life": "State",
+    "know": "Process",
+    "games": "System",
+    "way": "DirectionalVector",
+    "days": "TemporalDimension",
+    "management": "Process",
+    "part": "AbstractObject",
+    "could": "PossibilityModal",
+    "great": "ValueAttribute",
+    "united": "SystemState",
+    "hotel": "CommercialEntity",
+    "real": "ValueAttribute",
+    "item": "DataEntity",
+    "international": "EnvironmentContext",
+    "center": "PointLocation",
+    "ebay": "CommercialEntity",
+    "must": "ObligationModal",
+    "store": "CommercialEntity",
+    "travel": "Process",
+    "comments": "DataEntity",
+    "made": "UtilizationAction",
+    "development": "Process",
+    "report": "DataEntity",
+    "off": "SystemState",
+    "member": "RoleDefinition",
+    "details": "DataEntity",
+    "line": "LinearStructure",
+    "terms": "ConstraintDefinition",
+    "before": "SequentialOperator",
+    "hotels": "CommercialEntity",
+    "did": "ExecutionOperator",
+    "send": "TransmissionAction",
+    "right": "DirectionalVector",
+    "type": "IdentifierAttribute",
+    "because": "CausalOperator",
+    "local": "ProximalReference",
+    "those": "DistalReference",
+    "using": "UtilizationAction",
+    "results": "DataEntity",
+    "office": "FacilityEntity",
+    "education": "System",
+    "national": "ScopeAttribute",
+    "car": "TransportMechanism",
+    "design": "SpecificationEntity",
+    "take": "AcquisitionAction",
+    "posted": "PublicationState",
+    "internet": "NetworkSystem",
+    "address": "PointLocation",
+    "community": "CollectiveAgentReference",
+    "within": "ContainmentRelation",
+    "states": "GeoPoliticalEntity",
+    "area": "SpatialRegion",
+    "want": "IntentState",
+    "phone": "InterfaceUnit",
+    "dvd": "PhysicalObject",
+    "shipping": "Process",
+    "reserved": "SystemState",
+    "subject": "RoleDefinition",
+    "between": "RelationalOperator",
+    "forum": "NetworkSystem",
+    "family": "System",
+    "long": "ScopeAttribute",
+    "based": "SupportRelation",
+    "code": "SpecificationEntity",
+    "show": "TransmissionAction",
+    "even": "ValueAttribute",
+    "black": "ValueAttribute",
+    "check": "QueryAction",
+    "special": "NoveltyAttribute",
+    "prices": "ValueAttribute",
+    "website": "NetworkSystem",
+    "index": "ReferenceMarker",
+    "being": "ExistentialRoot",
+    "women": "CollectiveAgentReference",
+    "much": "AugmentativeQuantifier",
+    "sign": "IdentifierAttribute",
+    "file": "DataEntity",
+    "link": "ReferenceMarker",
+    "open": "SystemState",
+    "today": "TemporalDimension",
+    "technology": "System",
+    "south": "DirectionalVector",
+    "case": "ConditionalOperator",
+    "project": "Process"
+  },
+  "children": {
+    "Entity": [
+      "AbstractEntity",
+      "Event",
+      "InformationalEntity",
+      "Location",
+      "PhysicalObject",
+      "Process",
+      "Quality",
+      "Relation",
+      "TemporalEntity"
+    ],
+    "DefiniteSpecifier": [
+      "the"
+    ],
+    "GenitiveRelation": [
+      "de",
+      "of"
+    ],
+    "IntersectionOperator": [
+      "and"
+    ],
+    "DestinationVector": [
+      "into",
+      "to"
+    ],
+    "ContainmentRelation": [
+      "during",
+      "in",
+      "under",
+      "within"
+    ],
+    "BenefactiveRelation": [
+      "for"
+    ],
+    "IdentityCopula": [
+      "am",
+      "are",
+      "is"
+    ],
+    "SupportRelation": [
+      "based",
+      "help",
+      "on",
+      "support"
+    ],
+    "DistalReference": [
+      "that",
+      "there",
+      "those"
+    ],
+    "AgencyRelation": [
+      "by"
+    ],
+    "ProximalReference": [
+      "here",
+      "local",
+      "these",
+      "this"
+    ],
+    "ComitativeRelation": [
+      "with"
+    ],
+    "TargetAgentReference": [
+      "customer",
+      "he",
+      "him",
+      "john",
+      "man",
+      "me",
+      "she",
+      "they",
+      "user",
+      "who",
+      "you"
+    ],
+    "InanimateReference": [
+      "it"
+    ],
+    "NegationOperator": [
+      "no",
+      "non",
+      "not"
+    ],
+    "UnionOperator": [
+      "add",
+      "also",
+      "both",
+      "include",
+      "including",
+      "join",
+      "or"
+    ],
+    "ExistentialRoot": [
+      "be",
+      "being"
+    ],
+    "SourceVector": [
+      "from"
+    ],
+    "PointLocation": [
+      "address",
+      "at",
+      "center",
+      "city",
+      "home",
+      "location",
+      "point",
+      "top"
+    ],
+    "RoleDefinition": [
+      "as",
+      "author",
+      "job",
+      "jobs",
+      "member",
+      "men",
+      "students",
+      "subject",
+      "teen"
+    ],
+    "PossessiveSpecifier": [
+      "her",
+      "his",
+      "its",
+      "my",
+      "our",
+      "their",
+      "your"
+    ],
+    "UniversalQuantifier": [
+      "all",
+      "any",
+      "each",
+      "every"
+    ],
+    "PossessionState": [
+      "had",
+      "has",
+      "have",
+      "own"
+    ],
+    "NoveltyAttribute": [
+      "new",
+      "special"
+    ],
+    "AugmentativeQuantifier": [
+      "big",
+      "many",
+      "more",
+      "most",
+      "much",
+      "too",
+      "very"
+    ],
+    "IndefiniteSpecifier": [
+      "an",
+      "some"
+    ],
+    "PastIdentityCopula": [
+      "been",
+      "was",
+      "were"
+    ],
+    "CollectiveAgentReference": [
+      "community",
+      "group",
+      "people",
+      "them",
+      "us",
+      "we",
+      "women"
+    ],
+    "FutureModal": [
+      "will"
+    ],
+    "IdentityAttribute": [
+      "account",
+      "personal",
+      "same"
+    ],
+    "DataEntity": [
+      "article",
+      "comments",
+      "content",
+      "data",
+      "details",
+      "email",
+      "file",
+      "info",
+      "information",
+      "item",
+      "items",
+      "links",
+      "list",
+      "listing",
+      "mail",
+      "map",
+      "message",
+      "music",
+      "news",
+      "pages",
+      "posts",
+      "profile",
+      "report",
+      "results",
+      "reviews",
+      "set",
+      "software",
+      "text",
+      "video"
+    ],
+    "GeoPoliticalEntity": [
+      "canada",
+      "country",
+      "county",
+      "government",
+      "states",
+      "uk",
+      "usa",
+      "york"
+    ],
+    "SpecificationEntity": [
+      "categories",
+      "class",
+      "code",
+      "description",
+      "design",
+      "guide",
+      "property",
+      "version"
+    ],
+    "StructuralComponent": [
+      "board",
+      "section"
+    ],
+    "DiscoveryEvent": [
+      "found"
+    ],
+    "RecreationalActivity": [
+      "sports"
+    ],
+    "FacilityEntity": [
+      "college",
+      "house",
+      "office"
+    ],
+    "AssociationState": [
+      "related"
+    ],
+    "SystemState": [
+      "available",
+      "digital",
+      "health",
+      "off",
+      "old",
+      "open",
+      "privacy",
+      "reserved",
+      "security",
+      "united"
+    ],
+    "OriginAttribute": [
+      "american",
+      "source"
+    ],
+    "VisualMedia": [
+      "art",
+      "image",
+      "media",
+      "movies",
+      "photo",
+      "pictures"
+    ],
+    "SimulationProcess": [
+      "game",
+      "think"
+    ],
+    "ConstituentEntity": [
+      "children",
+      "department",
+      "members",
+      "resources"
+    ],
+    "EnergyResource": [
+      "food",
+      "power"
+    ],
+    "ConditionalOperator": [
+      "case",
+      "if",
+      "while",
+      "would"
+    ],
+    "MaintenanceAction": [
+      "care",
+      "save"
+    ],
+    "NetworkSystem": [
+      "forum",
+      "internet",
+      "network",
+      "website"
+    ],
+    "DirectionalVector": [
+      "back",
+      "down",
+      "north",
+      "over",
+      "right",
+      "south",
+      "through",
+      "up",
+      "way",
+      "west"
+    ],
+    "ComputationalDevice": [
+      "computer",
+      "tools"
+    ],
+    "System": [
+      "business",
+      "education",
+      "family",
+      "games",
+      "program",
+      "school",
+      "science",
+      "services",
+      "system",
+      "systems",
+      "technology",
+      "university",
+      "web"
+    ],
+    "NumericQuantifier": [
+      "number",
+      "three",
+      "two"
+    ],
+    "AggregationValue": [
+      "money",
+      "stock",
+      "total",
+      "value"
+    ],
+    "SpatialRegion": [
+      "area",
+      "around",
+      "place",
+      "room"
+    ],
+    "TerminationState": [
+      "end"
+    ],
+    "SequentialOperator": [
+      "after",
+      "before",
+      "following",
+      "last",
+      "next",
+      "order",
+      "previous",
+      "then"
+    ],
+    "AcquisitionAction": [
+      "access",
+      "download",
+      "learn",
+      "shopping",
+      "take",
+      "training"
+    ],
+    "ConstraintAbsence": [
+      "free",
+      "without"
+    ],
+    "RelationalOperator": [
+      "about",
+      "between",
+      "compare",
+      "like",
+      "per",
+      "so",
+      "than"
+    ],
+    "TemporalDimension": [
+      "current",
+      "date",
+      "day",
+      "days",
+      "december",
+      "history",
+      "hours",
+      "jan",
+      "january",
+      "now",
+      "pm",
+      "since",
+      "still",
+      "time",
+      "times",
+      "today",
+      "when",
+      "year",
+      "years"
+    ],
+    "ConstraintDefinition": [
+      "law",
+      "terms"
+    ],
+    "CausalOperator": [
+      "because",
+      "control"
+    ],
+    "PhysicalObject": [
+      "book",
+      "books",
+      "dvd",
+      "water"
+    ],
+    "ScopeAttribute": [
+      "level",
+      "long",
+      "national",
+      "private",
+      "size"
+    ],
+    "CommercialEntity": [
+      "company",
+      "ebay",
+      "hotel",
+      "hotels",
+      "insurance",
+      "press",
+      "product",
+      "products",
+      "shop",
+      "store"
+    ],
+    "LinearStructure": [
+      "course",
+      "directory",
+      "line"
+    ],
+    "Process": [
+      "change",
+      "development",
+      "events",
+      "know",
+      "management",
+      "process",
+      "project",
+      "research",
+      "review",
+      "said",
+      "shipping",
+      "travel",
+      "work"
+    ],
+    "ValueAttribute": [
+      "advanced",
+      "best",
+      "black",
+      "credit",
+      "even",
+      "full",
+      "general",
+      "good",
+      "great",
+      "high",
+      "little",
+      "low",
+      "price",
+      "prices",
+      "public",
+      "quality",
+      "rate",
+      "rating",
+      "real",
+      "well",
+      "white"
+    ],
+    "RestrictiveModifier": [
+      "just",
+      "small"
+    ],
+    "TransmissionAction": [
+      "print",
+      "provide",
+      "reply",
+      "return",
+      "sale",
+      "sales",
+      "send",
+      "show"
+    ],
+    "NetworkNode": [
+      "site",
+      "sites"
+    ],
+    "InterfaceUnit": [
+      "card",
+      "contact",
+      "form",
+      "page",
+      "phone",
+      "please",
+      "service",
+      "view"
+    ],
+    "IntentState": [
+      "love",
+      "want"
+    ],
+    "SelectionSpecifier": [
+      "first",
+      "main",
+      "only",
+      "which"
+    ],
+    "ExecutionOperator": [
+      "call",
+      "cd",
+      "click",
+      "did",
+      "do",
+      "does",
+      "go"
+    ],
+    "IdentifierAttribute": [
+      "name",
+      "sign",
+      "title",
+      "type"
+    ],
+    "AlternativeSpecifier": [
+      "another",
+      "other"
+    ],
+    "InterrogativeSpecifier": [
+      "how",
+      "what",
+      "where",
+      "why"
+    ],
+    "ObligationModal": [
+      "must",
+      "need",
+      "shall",
+      "should"
+    ],
+    "UtilizationAction": [
+      "made",
+      "use",
+      "used",
+      "using",
+      "visit"
+    ],
+    "ContrastiveOperator": [
+      "but",
+      "different"
+    ],
+    "CapabilityModal": [
+      "can"
+    ],
+    "QueryAction": [
+      "check",
+      "find",
+      "get",
+      "read",
+      "search",
+      "see"
+    ],
+    "UnitQuantifier": [
+      "one"
+    ],
+    "PossibilityModal": [
+      "could",
+      "may"
+    ],
+    "ExteriorState": [
+      "out"
+    ],
+    "State": [
+      "life",
+      "online",
+      "state"
+    ],
+    "EnvironmentContext": [
+      "international",
+      "world"
+    ],
+    "ReferenceMarker": [
+      "index",
+      "link",
+      "re",
+      "such"
+    ],
+    "Action": [
+      "buy",
+      "make",
+      "post"
+    ],
+    "AbstractObject": [
+      "copyright",
+      "part",
+      "policy",
+      "rights"
+    ],
+    "TransportMechanism": [
+      "car"
+    ],
+    "PublicationState": [
+      "posted"
+    ]
+  },
+  "entries": {
+    "the": {
+      "lemma": "the",
+      "parent": "DefiniteSpecifier",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "GRAMMATICAL",
+        "DETERMINER"
+      ]
+    },
+    "of": {
+      "lemma": "of",
+      "parent": "GenitiveRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": [
+        "RELATIONAL",
+        "ASSOCIATIVE"
+      ]
+    },
+    "and": {
+      "lemma": "and",
+      "parent": "IntersectionOperator",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "LOGICAL",
+        "CONNECTIVE"
+      ]
+    },
+    "to": {
+      "lemma": "to",
+      "parent": "DestinationVector",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": [
+        "DIRECTIONAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "in": {
+      "lemma": "in",
+      "parent": "ContainmentRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": [
+        "SPATIAL",
+        "SCOPE"
+      ]
+    },
+    "for": {
+      "lemma": "for",
+      "parent": "BenefactiveRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "PURPOSE",
+        "POLYSEMOUS"
+      ]
+    },
+    "is": {
+      "lemma": "is",
+      "parent": "IdentityCopula",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "EXISTENTIAL",
+        "ASSERTION"
+      ]
+    },
+    "on": {
+      "lemma": "on",
+      "parent": "SupportRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.85,
+      "flags": [
+        "SPATIAL",
+        "DEPENDENCY",
+        "POLYSEMOUS"
+      ]
+    },
+    "that": {
+      "lemma": "that",
+      "parent": "DistalReference",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "DEICTIC",
+        "POLYSEMOUS"
+      ]
+    },
+    "by": {
+      "lemma": "by",
+      "parent": "AgencyRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.92,
+      "flags": [
+        "CAUSAL",
+        "INSTRUMENTAL"
+      ]
+    },
+    "this": {
+      "lemma": "this",
+      "parent": "ProximalReference",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": [
+        "DEICTIC",
+        "SELF_REFERENCE"
+      ]
+    },
+    "with": {
+      "lemma": "with",
+      "parent": "ComitativeRelation",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "AUGMENTATIVE",
+        "INSTRUMENTAL"
+      ]
+    },
+    "you": {
+      "lemma": "you",
+      "parent": "TargetAgentReference",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOMINAL",
+        "INTERACTIVE"
+      ]
+    },
+    "it": {
+      "lemma": "it",
+      "parent": "InanimateReference",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOMINAL",
+        "OBJECT_POINTER"
+      ]
+    },
+    "not": {
+      "lemma": "not",
+      "parent": "NegationOperator",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "LOGICAL",
+        "INVERTER"
+      ]
+    },
+    "or": {
+      "lemma": "or",
+      "parent": "UnionOperator",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "LOGICAL",
+        "DISJUNCTIVE"
+      ]
+    },
+    "be": {
+      "lemma": "be",
+      "parent": "ExistentialRoot",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "ONTOLOGICAL",
+        "PASSIVE"
+      ]
+    },
+    "are": {
+      "lemma": "are",
+      "parent": "IdentityCopula",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "PLURAL",
+        "ASSERTION"
+      ]
+    },
+    "from": {
+      "lemma": "from",
+      "parent": "SourceVector",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": [
+        "ORIGIN",
+        "DIRECTIONAL"
+      ]
+    },
+    "at": {
+      "lemma": "at",
+      "parent": "PointLocation",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL",
+        "ADDRESS"
+      ]
+    },
+    "as": {
+      "lemma": "as",
+      "parent": "RoleDefinition",
+      "kind": "AbstractObject",
+      "confidence": 0.85,
+      "flags": [
+        "TYPE_CASTING",
+        "SIMILITUDE",
+        "POLYSEMOUS"
+      ]
+    },
+    "your": {
+      "lemma": "your",
+      "parent": "PossessiveSpecifier",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": [
+        "OWNERSHIP",
+        "SECOND_PERSON"
+      ]
+    },
+    "all": {
+      "lemma": "all",
+      "parent": "UniversalQuantifier",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "LOGICAL",
+        "COLLECTIVE"
+      ]
+    },
+    "have": {
+      "lemma": "have",
+      "parent": "PossessionState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "OWNERSHIP",
+        "POLYSEMOUS"
+      ]
+    },
+    "new": {
+      "lemma": "new",
+      "parent": "NoveltyAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "TEMPORAL",
+        "INSTANTIATION"
+      ]
+    },
+    "more": {
+      "lemma": "more",
+      "parent": "AugmentativeQuantifier",
+      "kind": "AbstractObject",
+      "confidence": 0.92,
+      "flags": [
+        "COMPARATIVE",
+        "SCALAR"
+      ]
+    },
+    "an": {
+      "lemma": "an",
+      "parent": "IndefiniteSpecifier",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "GRAMMATICAL",
+        "SINGULAR"
+      ]
+    },
+    "was": {
+      "lemma": "was",
+      "parent": "PastIdentityCopula",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "TEMPORAL",
+        "HISTORY"
+      ]
+    },
+    "we": {
+      "lemma": "we",
+      "parent": "CollectiveAgentReference",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": [
+        "PRONOMINAL",
+        "GROUP"
+      ]
+    },
+    "will": {
+      "lemma": "will",
+      "parent": "FutureModal",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "TEMPORAL",
+        "PROMISE",
+        "POLYSEMOUS"
+      ]
+    },
+    "same": {
+      "lemma": "same",
+      "parent": "IdentityAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "COMPARATIVE",
+        "LOGICAL"
+      ]
+    },
+    "pages": {
+      "lemma": "pages",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "UNIT"
+      ]
+    },
+    "uk": {
+      "lemma": "uk",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PROPER_NOUN",
+        "LOCATION"
+      ]
+    },
+    "version": {
+      "lemma": "version",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "METADATA",
+        "TECHNICAL"
+      ]
+    },
+    "section": {
+      "lemma": "section",
+      "parent": "StructuralComponent",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "PARTITIVE",
+        "ABSTRACT"
+      ]
+    },
+    "own": {
+      "lemma": "own",
+      "parent": "PossessionState",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "POLYSEMOUS",
+        "RELATIONAL"
+      ]
+    },
+    "found": {
+      "lemma": "found",
+      "parent": "DiscoveryEvent",
+      "kind": "Action",
+      "confidence": 0.88,
+      "flags": [
+        "PAST_TENSE",
+        "RESULTATIVE"
+      ]
+    },
+    "sports": {
+      "lemma": "sports",
+      "parent": "RecreationalActivity",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "DOMAIN_SPECIFIC"
+      ]
+    },
+    "house": {
+      "lemma": "house",
+      "parent": "FacilityEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "PHYSICAL",
+        "CONTAINER"
+      ]
+    },
+    "related": {
+      "lemma": "related",
+      "parent": "AssociationState",
+      "kind": "State",
+      "confidence": 0.94,
+      "flags": [
+        "RELATIONAL",
+        "ABSTRACT"
+      ]
+    },
+    "security": {
+      "lemma": "security",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.89,
+      "flags": [
+        "ABSTRACT",
+        "TECHNICAL"
+      ]
+    },
+    "both": {
+      "lemma": "both",
+      "parent": "UnionOperator",
+      "kind": "Property",
+      "confidence": 0.96,
+      "flags": [
+        "LOGICAL",
+        "QUANTIFIER"
+      ]
+    },
+    "county": {
+      "lemma": "county",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "ADMINISTRATIVE",
+        "LOCATION"
+      ]
+    },
+    "american": {
+      "lemma": "american",
+      "parent": "OriginAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "DEMONYM"
+      ]
+    },
+    "photo": {
+      "lemma": "photo",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "DATA_REPRESENTATION"
+      ]
+    },
+    "game": {
+      "lemma": "game",
+      "parent": "SimulationProcess",
+      "kind": "Process",
+      "confidence": 0.85,
+      "flags": [
+        "INTERACTIVE",
+        "POLYSEMOUS"
+      ]
+    },
+    "members": {
+      "lemma": "members",
+      "parent": "ConstituentEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "PLURAL",
+        "COLLECTIVE"
+      ]
+    },
+    "power": {
+      "lemma": "power",
+      "parent": "EnergyResource",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "PHYSICS"
+      ]
+    },
+    "while": {
+      "lemma": "while",
+      "parent": "ConditionalOperator",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "TEMPORAL",
+        "CONTROL_FLOW"
+      ]
+    },
+    "care": {
+      "lemma": "care",
+      "parent": "MaintenanceAction",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "ABSTRACT"
+      ]
+    },
+    "network": {
+      "lemma": "network",
+      "parent": "NetworkSystem",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "TECHNICAL",
+        "TOPOLOGICAL"
+      ]
+    },
+    "down": {
+      "lemma": "down",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "SPATIAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "computer": {
+      "lemma": "computer",
+      "parent": "ComputationalDevice",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "HARDWARE",
+        "TECHNICAL"
+      ]
+    },
+    "systems": {
+      "lemma": "systems",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "PLURAL",
+        "ABSTRACT"
+      ]
+    },
+    "three": {
+      "lemma": "three",
+      "parent": "NumericQuantifier",
+      "kind": "Property",
+      "confidence": 1.0,
+      "flags": [
+        "NUMERIC",
+        "SCALAR"
+      ]
+    },
+    "total": {
+      "lemma": "total",
+      "parent": "AggregationValue",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "MATHEMATICAL",
+        "RESULTATIVE"
+      ]
+    },
+    "place": {
+      "lemma": "place",
+      "parent": "SpatialRegion",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "GEOGRAPHIC",
+        "GENERIC"
+      ]
+    },
+    "end": {
+      "lemma": "end",
+      "parent": "TerminationState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "TEMPORAL",
+        "BOUNDARY"
+      ]
+    },
+    "following": {
+      "lemma": "following",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.93,
+      "flags": [
+        "ORDERING",
+        "RELATIVE"
+      ]
+    },
+    "download": {
+      "lemma": "download",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.97,
+      "flags": [
+        "TECHNICAL",
+        "DATA_TRANSFER"
+      ]
+    },
+    "him": {
+      "lemma": "him",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PRONOUN",
+        "OBJECT_CASE"
+      ]
+    },
+    "without": {
+      "lemma": "without",
+      "parent": "ConstraintAbsence",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "PREPOSITION",
+        "LOGICAL_NEGATION"
+      ]
+    },
+    "per": {
+      "lemma": "per",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "RATIO",
+        "DISTRIBUTIVE"
+      ]
+    },
+    "access": {
+      "lemma": "access",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "POLYSEMOUS",
+        "TECHNICAL"
+      ]
+    },
+    "think": {
+      "lemma": "think",
+      "parent": "SimulationProcess",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "COGNITIVE",
+        "METAPHORICAL"
+      ]
+    },
+    "north": {
+      "lemma": "north",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "SPATIAL"
+      ]
+    },
+    "resources": {
+      "lemma": "resources",
+      "parent": "ConstituentEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "PLURAL",
+        "SYSTEMS"
+      ]
+    },
+    "current": {
+      "lemma": "current",
+      "parent": "TemporalDimension",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "TEMPORAL"
+      ]
+    },
+    "posts": {
+      "lemma": "posts",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "DIGITAL_CONTENT"
+      ]
+    },
+    "big": {
+      "lemma": "big",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "SCALAR"
+      ]
+    },
+    "media": {
+      "lemma": "media",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "COLLECTIVE"
+      ]
+    },
+    "law": {
+      "lemma": "law",
+      "parent": "ConstraintDefinition",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": [
+        "REGULATORY"
+      ]
+    },
+    "control": {
+      "lemma": "control",
+      "parent": "CausalOperator",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "MECHANISM"
+      ]
+    },
+    "water": {
+      "lemma": "water",
+      "parent": "PhysicalObject",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "MATERIAL"
+      ]
+    },
+    "history": {
+      "lemma": "history",
+      "parent": "TemporalDimension",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "RETROSPECTIVE"
+      ]
+    },
+    "pictures": {
+      "lemma": "pictures",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "size": {
+      "lemma": "size",
+      "parent": "ScopeAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "DIMENSIONAL"
+      ]
+    },
+    "art": {
+      "lemma": "art",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "ABSTRACT",
+        "CULTURAL"
+      ]
+    },
+    "personal": {
+      "lemma": "personal",
+      "parent": "IdentityAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "POSSESSIVE"
+      ]
+    },
+    "since": {
+      "lemma": "since",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "RELATIONAL"
+      ]
+    },
+    "including": {
+      "lemma": "including",
+      "parent": "UnionOperator",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "SET_LOGIC"
+      ]
+    },
+    "guide": {
+      "lemma": "guide",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "INSTRUCTIONAL"
+      ]
+    },
+    "shop": {
+      "lemma": "shop",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TRANSACTIONAL"
+      ]
+    },
+    "directory": {
+      "lemma": "directory",
+      "parent": "LinearStructure",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "ORGANIZATIONAL",
+        "TECHNICAL"
+      ]
+    },
+    "board": {
+      "lemma": "board",
+      "parent": "StructuralComponent",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "HARDWARE"
+      ]
+    },
+    "location": {
+      "lemma": "location",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL"
+      ]
+    },
+    "change": {
+      "lemma": "change",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.7,
+      "flags": [
+        "GENERIC",
+        "TRANSITIONAL"
+      ]
+    },
+    "white": {
+      "lemma": "white",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "VISUAL"
+      ]
+    },
+    "text": {
+      "lemma": "text",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "STRING"
+      ]
+    },
+    "small": {
+      "lemma": "small",
+      "parent": "RestrictiveModifier",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "SCALAR",
+        "DIMINUTIVE"
+      ]
+    },
+    "rating": {
+      "lemma": "rating",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "QUANTITATIVE",
+        "METRIC"
+      ]
+    },
+    "rate": {
+      "lemma": "rate",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "TECHNICAL"
+      ]
+    },
+    "government": {
+      "lemma": "government",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "INSTITUTIONAL"
+      ]
+    },
+    "children": {
+      "lemma": "children",
+      "parent": "ConstituentEntity",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "POLYSEMOUS",
+        "TECHNICAL",
+        "HIERARCHICAL"
+      ]
+    },
+    "during": {
+      "lemma": "during",
+      "parent": "ContainmentRelation",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "TEMPORAL",
+        "PREPOSITIONAL"
+      ]
+    },
+    "usa": {
+      "lemma": "usa",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "SPECIFIC",
+        "LOCATION"
+      ]
+    },
+    "return": {
+      "lemma": "return",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.92,
+      "flags": [
+        "TECHNICAL",
+        "PROGRAMMING"
+      ]
+    },
+    "students": {
+      "lemma": "students",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "SOCIAL"
+      ]
+    },
+    "shopping": {
+      "lemma": "shopping",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "COMMERCIAL"
+      ]
+    },
+    "account": {
+      "lemma": "account",
+      "parent": "IdentityAttribute",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "TECHNICAL",
+        "SECURITY"
+      ]
+    },
+    "times": {
+      "lemma": "times",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "QUANTITATIVE"
+      ]
+    },
+    "sites": {
+      "lemma": "sites",
+      "parent": "NetworkNode",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "TECHNICAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "level": {
+      "lemma": "level",
+      "parent": "ScopeAttribute",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS",
+        "HIERARCHICAL"
+      ]
+    },
+    "digital": {
+      "lemma": "digital",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "TECHNICAL"
+      ]
+    },
+    "profile": {
+      "lemma": "profile",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "TECHNICAL",
+        "AGGREGATE"
+      ]
+    },
+    "previous": {
+      "lemma": "previous",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "TEMPORAL",
+        "ORDERING"
+      ]
+    },
+    "form": {
+      "lemma": "form",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "TECHNICAL",
+        "UI"
+      ]
+    },
+    "events": {
+      "lemma": "events",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "TEMPORAL",
+        "DYNAMIC"
+      ]
+    },
+    "love": {
+      "lemma": "love",
+      "parent": "IntentState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "ABSTRACT",
+        "EMOTIONAL"
+      ]
+    },
+    "old": {
+      "lemma": "old",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.8,
+      "flags": [
+        "TEMPORAL",
+        "CONDITION"
+      ]
+    },
+    "john": {
+      "lemma": "john",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "SPECIFIC",
+        "PROPER_NOUN"
+      ]
+    },
+    "main": {
+      "lemma": "main",
+      "parent": "SelectionSpecifier",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "PRIORITY"
+      ]
+    },
+    "call": {
+      "lemma": "call",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TECHNICAL",
+        "PROGRAMMING"
+      ]
+    },
+    "hours": {
+      "lemma": "hours",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "UNIT",
+        "MEASUREMENT"
+      ]
+    },
+    "image": {
+      "lemma": "image",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "MEDIA"
+      ]
+    },
+    "department": {
+      "lemma": "department",
+      "parent": "ConstituentEntity",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "ORGANIZATIONAL"
+      ]
+    },
+    "title": {
+      "lemma": "title",
+      "parent": "IdentifierAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "METADATA"
+      ]
+    },
+    "description": {
+      "lemma": "description",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "INFORMATIONAL"
+      ]
+    },
+    "non": {
+      "lemma": "non",
+      "parent": "NegationOperator",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "LOGICAL",
+        "PREFIX"
+      ]
+    },
+    "insurance": {
+      "lemma": "insurance",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "FINANCIAL",
+        "SERVICE"
+      ]
+    },
+    "another": {
+      "lemma": "another",
+      "parent": "AlternativeSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "LOGIC",
+        "DETERMINER"
+      ]
+    },
+    "why": {
+      "lemma": "why",
+      "parent": "InterrogativeSpecifier",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": [
+        "QUERY",
+        "CAUSAL"
+      ]
+    },
+    "shall": {
+      "lemma": "shall",
+      "parent": "ObligationModal",
+      "kind": "Action",
+      "confidence": 0.92,
+      "flags": [
+        "TECHNICAL",
+        "CONTRACTUAL"
+      ]
+    },
+    "property": {
+      "lemma": "property",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "OOP",
+        "TECHNICAL"
+      ]
+    },
+    "class": {
+      "lemma": "class",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "POLYSEMOUS",
+        "OOP",
+        "TECHNICAL"
+      ]
+    },
+    "cd": {
+      "lemma": "cd",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.88,
+      "flags": [
+        "POLYSEMOUS",
+        "TECHNICAL",
+        "COMMAND"
+      ]
+    },
+    "still": {
+      "lemma": "still",
+      "parent": "TemporalDimension",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "ADVERBIAL",
+        "CONTINUITY"
+      ]
+    },
+    "money": {
+      "lemma": "money",
+      "parent": "AggregationValue",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "ECONOMIC",
+        "QUANTIFIABLE"
+      ]
+    },
+    "quality": {
+      "lemma": "quality",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.88,
+      "flags": [
+        "ABSTRACT",
+        "METRIC"
+      ]
+    },
+    "every": {
+      "lemma": "every",
+      "parent": "UniversalQuantifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "LOGIC"
+      ]
+    },
+    "listing": {
+      "lemma": "listing",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS",
+        "RECORD"
+      ]
+    },
+    "content": {
+      "lemma": "content",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "ABSTRACT",
+        "PAYLOAD"
+      ]
+    },
+    "country": {
+      "lemma": "country",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "GEOGRAPHIC"
+      ]
+    },
+    "private": {
+      "lemma": "private",
+      "parent": "ScopeAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "TECHNICAL",
+        "ACCESS_CONTROL"
+      ]
+    },
+    "little": {
+      "lemma": "little",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "QUANTIFIER",
+        "DIMINUTIVE"
+      ]
+    },
+    "visit": {
+      "lemma": "visit",
+      "parent": "UtilizationAction",
+      "kind": "Action",
+      "confidence": 0.82,
+      "flags": [
+        "POLYSEMOUS",
+        "NETWORK"
+      ]
+    },
+    "save": {
+      "lemma": "save",
+      "parent": "MaintenanceAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TECHNICAL",
+        "PERSISTENCE"
+      ]
+    },
+    "tools": {
+      "lemma": "tools",
+      "parent": "ComputationalDevice",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "INSTRUMENT"
+      ]
+    },
+    "low": {
+      "lemma": "low",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.88,
+      "flags": [
+        "MAGNITUDE"
+      ]
+    },
+    "reply": {
+      "lemma": "reply",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "COMMUNICATION"
+      ]
+    },
+    "customer": {
+      "lemma": "customer",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "ROLE",
+        "COMMERCIAL"
+      ]
+    },
+    "december": {
+      "lemma": "december",
+      "parent": "TemporalDimension",
+      "kind": "AbstractObject",
+      "confidence": 0.99,
+      "flags": [
+        "TIME"
+      ]
+    },
+    "compare": {
+      "lemma": "compare",
+      "parent": "RelationalOperator",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "LOGIC",
+        "EVALUATION"
+      ]
+    },
+    "movies": {
+      "lemma": "movies",
+      "parent": "VisualMedia",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "ENTERTAINMENT"
+      ]
+    },
+    "include": {
+      "lemma": "include",
+      "parent": "UnionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "LOGIC",
+        "TECHNICAL"
+      ]
+    },
+    "college": {
+      "lemma": "college",
+      "parent": "FacilityEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "INSTITUTIONAL"
+      ]
+    },
+    "value": {
+      "lemma": "value",
+      "parent": "AggregationValue",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "POLYSEMOUS",
+        "DATA"
+      ]
+    },
+    "article": {
+      "lemma": "article",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "DOCUMENT",
+        "POLYSEMOUS"
+      ]
+    },
+    "york": {
+      "lemma": "york",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PROPER_NOUN",
+        "LOCATION"
+      ]
+    },
+    "man": {
+      "lemma": "man",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "BIOLOGICAL",
+        "AGENT"
+      ]
+    },
+    "card": {
+      "lemma": "card",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "TECHNICAL"
+      ]
+    },
+    "jobs": {
+      "lemma": "jobs",
+      "parent": "RoleDefinition",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "provide": {
+      "lemma": "provide",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.88,
+      "flags": []
+    },
+    "food": {
+      "lemma": "food",
+      "parent": "EnergyResource",
+      "kind": "PhysicalObject",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "source": {
+      "lemma": "source",
+      "parent": "OriginAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "author": {
+      "lemma": "author",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "different": {
+      "lemma": "different",
+      "parent": "ContrastiveOperator",
+      "kind": "Property",
+      "confidence": 0.92,
+      "flags": []
+    },
+    "press": {
+      "lemma": "press",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.75,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "learn": {
+      "lemma": "learn",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "sale": {
+      "lemma": "sale",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "around": {
+      "lemma": "around",
+      "parent": "SpatialRegion",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "ABSTRACT"
+      ]
+    },
+    "print": {
+      "lemma": "print",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TECHNICAL"
+      ]
+    },
+    "course": {
+      "lemma": "course",
+      "parent": "LinearStructure",
+      "kind": "AbstractObject",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "job": {
+      "lemma": "job",
+      "parent": "RoleDefinition",
+      "kind": "AbstractObject",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "canada": {
+      "lemma": "canada",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 1.0,
+      "flags": []
+    },
+    "process": {
+      "lemma": "process",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 1.0,
+      "flags": [
+        "TECHNICAL"
+      ]
+    },
+    "teen": {
+      "lemma": "teen",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": []
+    },
+    "room": {
+      "lemma": "room",
+      "parent": "SpatialRegion",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "stock": {
+      "lemma": "stock",
+      "parent": "AggregationValue",
+      "kind": "AbstractObject",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "training": {
+      "lemma": "training",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "too": {
+      "lemma": "too",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "credit": {
+      "lemma": "credit",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "ABSTRACT"
+      ]
+    },
+    "point": {
+      "lemma": "point",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "join": {
+      "lemma": "join",
+      "parent": "UnionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TECHNICAL"
+      ]
+    },
+    "science": {
+      "lemma": "science",
+      "parent": "System",
+      "kind": "AbstractObject",
+      "confidence": 0.85,
+      "flags": []
+    },
+    "men": {
+      "lemma": "men",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "categories": {
+      "lemma": "categories",
+      "parent": "SpecificationEntity",
+      "kind": "AbstractObject",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "advanced": {
+      "lemma": "advanced",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": []
+    },
+    "west": {
+      "lemma": "west",
+      "parent": "DirectionalVector",
+      "kind": "AbstractObject",
+      "confidence": 0.98,
+      "flags": []
+    },
+    "sales": {
+      "lemma": "sales",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "home": {
+      "lemma": "home",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "POLYSEMOUS",
+        "UI_CONTEXT"
+      ]
+    },
+    "can": {
+      "lemma": "can",
+      "parent": "CapabilityModal",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "AUXILIARY"
+      ]
+    },
+    "us": {
+      "lemma": "us",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOUN"
+      ]
+    },
+    "about": {
+      "lemma": "about",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "PREPOSITION"
+      ]
+    },
+    "if": {
+      "lemma": "if",
+      "parent": "ConditionalOperator",
+      "kind": "Action",
+      "confidence": 0.99,
+      "flags": [
+        "LOGIC"
+      ]
+    },
+    "page": {
+      "lemma": "page",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "COMPUTING",
+        "POLYSEMOUS"
+      ]
+    },
+    "my": {
+      "lemma": "my",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": []
+    },
+    "has": {
+      "lemma": "has",
+      "parent": "PossessionState",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "AUXILIARY"
+      ]
+    },
+    "search": {
+      "lemma": "search",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "COMPUTING"
+      ]
+    },
+    "free": {
+      "lemma": "free",
+      "parent": "ConstraintAbsence",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "ABSTRACT"
+      ]
+    },
+    "but": {
+      "lemma": "but",
+      "parent": "ContrastiveOperator",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "LOGIC"
+      ]
+    },
+    "our": {
+      "lemma": "our",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": []
+    },
+    "one": {
+      "lemma": "one",
+      "parent": "UnitQuantifier",
+      "kind": "Property",
+      "confidence": 0.98,
+      "flags": [
+        "NUMERIC"
+      ]
+    },
+    "other": {
+      "lemma": "other",
+      "parent": "AlternativeSpecifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "do": {
+      "lemma": "do",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "AUXILIARY"
+      ]
+    },
+    "no": {
+      "lemma": "no",
+      "parent": "NegationOperator",
+      "kind": "Action",
+      "confidence": 0.99,
+      "flags": [
+        "LOGIC"
+      ]
+    },
+    "information": {
+      "lemma": "information",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "ABSTRACT"
+      ]
+    },
+    "time": {
+      "lemma": "time",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PHYSICS"
+      ]
+    },
+    "they": {
+      "lemma": "they",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PRONOUN",
+        "DISTAL"
+      ]
+    },
+    "site": {
+      "lemma": "site",
+      "parent": "NetworkNode",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "COMPUTING"
+      ]
+    },
+    "he": {
+      "lemma": "he",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOUN",
+        "GENDERED"
+      ]
+    },
+    "up": {
+      "lemma": "up",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "SPATIAL"
+      ]
+    },
+    "may": {
+      "lemma": "may",
+      "parent": "PossibilityModal",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "AUXILIARY"
+      ]
+    },
+    "what": {
+      "lemma": "what",
+      "parent": "InterrogativeSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "which": {
+      "lemma": "which",
+      "parent": "SelectionSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "their": {
+      "lemma": "their",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": []
+    },
+    "news": {
+      "lemma": "news",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "TEMPORAL"
+      ]
+    },
+    "out": {
+      "lemma": "out",
+      "parent": "ExteriorState",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "SPATIAL"
+      ]
+    },
+    "use": {
+      "lemma": "use",
+      "parent": "UtilizationAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "any": {
+      "lemma": "any",
+      "parent": "UniversalQuantifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "LOGIC"
+      ]
+    },
+    "there": {
+      "lemma": "there",
+      "parent": "DistalReference",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "DEICTIC",
+        "SPATIAL"
+      ]
+    },
+    "see": {
+      "lemma": "see",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "SENSORY",
+        "METAPHORICAL",
+        "TECHNICAL"
+      ]
+    },
+    "only": {
+      "lemma": "only",
+      "parent": "SelectionSpecifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "RESTRICTIVE",
+        "LOGICAL"
+      ]
+    },
+    "so": {
+      "lemma": "so",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "CAUSAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "his": {
+      "lemma": "his",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOMINAL",
+        "GENDERED"
+      ]
+    },
+    "when": {
+      "lemma": "when",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "INTERROGATIVE",
+        "RELATIVE"
+      ]
+    },
+    "contact": {
+      "lemma": "contact",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "UI_ELEMENT",
+        "POLYSEMOUS"
+      ]
+    },
+    "here": {
+      "lemma": "here",
+      "parent": "ProximalReference",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "DEICTIC",
+        "SPATIAL"
+      ]
+    },
+    "business": {
+      "lemma": "business",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "ORGANIZATIONAL",
+        "ABSTRACT"
+      ]
+    },
+    "who": {
+      "lemma": "who",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "INTERROGATIVE",
+        "PRONOMINAL"
+      ]
+    },
+    "web": {
+      "lemma": "web",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "NETWORK",
+        "TECHNICAL"
+      ]
+    },
+    "also": {
+      "lemma": "also",
+      "parent": "UnionOperator",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "ADDITIVE",
+        "LOGICAL"
+      ]
+    },
+    "now": {
+      "lemma": "now",
+      "parent": "TemporalDimension",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "IMMEDIATE",
+        "TEMPORAL"
+      ]
+    },
+    "help": {
+      "lemma": "help",
+      "parent": "SupportRelation",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "BENEFACTIVE",
+        "ABSTRACT"
+      ]
+    },
+    "get": {
+      "lemma": "get",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "RETRIEVAL",
+        "TECHNICAL"
+      ]
+    },
+    "pm": {
+      "lemma": "pm",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "TIME_UNIT",
+        "ABBREVIATION"
+      ]
+    },
+    "view": {
+      "lemma": "view",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "TECHNICAL",
+        "VISUAL"
+      ]
+    },
+    "online": {
+      "lemma": "online",
+      "parent": "State",
+      "kind": "State",
+      "confidence": 0.8,
+      "flags": [
+        "CONNECTIVITY",
+        "TECHNICAL"
+      ]
+    },
+    "first": {
+      "lemma": "first",
+      "parent": "SelectionSpecifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "ORDINAL",
+        "NUMERIC"
+      ]
+    },
+    "am": {
+      "lemma": "am",
+      "parent": "IdentityCopula",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "EXISTENTIAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "been": {
+      "lemma": "been",
+      "parent": "PastIdentityCopula",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "EXISTENTIAL",
+        "TEMPORAL"
+      ]
+    },
+    "would": {
+      "lemma": "would",
+      "parent": "ConditionalOperator",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "MODAL",
+        "HYPOTHETICAL"
+      ]
+    },
+    "how": {
+      "lemma": "how",
+      "parent": "InterrogativeSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "METHODOLOGICAL",
+        "QUERY"
+      ]
+    },
+    "were": {
+      "lemma": "were",
+      "parent": "PastIdentityCopula",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "EXISTENTIAL",
+        "TEMPORAL"
+      ]
+    },
+    "me": {
+      "lemma": "me",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PRONOMINAL",
+        "REFLEXIVE"
+      ]
+    },
+    "services": {
+      "lemma": "services",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "FUNCTIONAL",
+        "PLURAL"
+      ]
+    },
+    "some": {
+      "lemma": "some",
+      "parent": "IndefiniteSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "QUANTIFIER",
+        "VAGUE"
+      ]
+    },
+    "these": {
+      "lemma": "these",
+      "parent": "ProximalReference",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "DEICTIC",
+        "PLURAL"
+      ]
+    },
+    "click": {
+      "lemma": "click",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "UI_EVENT",
+        "TRIGGER"
+      ]
+    },
+    "its": {
+      "lemma": "its",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOMINAL",
+        "INANIMATE"
+      ]
+    },
+    "like": {
+      "lemma": "like",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "COMPARATIVE"
+      ]
+    },
+    "service": {
+      "lemma": "service",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TECHNICAL",
+        "SYSTEMS"
+      ]
+    },
+    "than": {
+      "lemma": "than",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.98,
+      "flags": [
+        "COMPARATIVE"
+      ]
+    },
+    "find": {
+      "lemma": "find",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "DATA_RETRIEVAL"
+      ]
+    },
+    "price": {
+      "lemma": "price",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "QUANTITATIVE"
+      ]
+    },
+    "date": {
+      "lemma": "date",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "DATA_TYPE"
+      ]
+    },
+    "back": {
+      "lemma": "back",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.88,
+      "flags": [
+        "NAVIGATION",
+        "SPATIAL"
+      ]
+    },
+    "top": {
+      "lemma": "top",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "SPATIAL",
+        "HIERARCHICAL"
+      ]
+    },
+    "people": {
+      "lemma": "people",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "had": {
+      "lemma": "had",
+      "parent": "PossessionState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "PAST_TENSE"
+      ]
+    },
+    "list": {
+      "lemma": "list",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "DATA_STRUCTURE"
+      ]
+    },
+    "name": {
+      "lemma": "name",
+      "parent": "IdentifierAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "METADATA"
+      ]
+    },
+    "just": {
+      "lemma": "just",
+      "parent": "RestrictiveModifier",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "LOGICAL",
+        "TEMPORAL"
+      ]
+    },
+    "over": {
+      "lemma": "over",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.75,
+      "flags": [
+        "POLYSEMOUS",
+        "SPATIAL"
+      ]
+    },
+    "state": {
+      "lemma": "state",
+      "parent": "State",
+      "kind": "State",
+      "confidence": 0.99,
+      "flags": [
+        "ABSTRACT",
+        "TECHNICAL"
+      ]
+    },
+    "year": {
+      "lemma": "year",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "UNIT"
+      ]
+    },
+    "day": {
+      "lemma": "day",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "UNIT"
+      ]
+    },
+    "into": {
+      "lemma": "into",
+      "parent": "DestinationVector",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "PREPOSITIONAL"
+      ]
+    },
+    "email": {
+      "lemma": "email",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "COMMUNICATION"
+      ]
+    },
+    "two": {
+      "lemma": "two",
+      "parent": "NumericQuantifier",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "SCALAR"
+      ]
+    },
+    "health": {
+      "lemma": "health",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "DIAGNOSTIC"
+      ]
+    },
+    "world": {
+      "lemma": "world",
+      "parent": "EnvironmentContext",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "SCOPE"
+      ]
+    },
+    "re": {
+      "lemma": "re",
+      "parent": "ReferenceMarker",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "HEADER",
+        "ABBREVIATION"
+      ]
+    },
+    "next": {
+      "lemma": "next",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.92,
+      "flags": [
+        "ITERATIVE"
+      ]
+    },
+    "used": {
+      "lemma": "used",
+      "parent": "UtilizationAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "PAST_PARTICIPLE"
+      ]
+    },
+    "go": {
+      "lemma": "go",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "FLOW_CONTROL"
+      ]
+    },
+    "work": {
+      "lemma": "work",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "ABSTRACT"
+      ]
+    },
+    "last": {
+      "lemma": "last",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "TEMPORAL",
+        "ITERATIVE"
+      ]
+    },
+    "most": {
+      "lemma": "most",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "SUPERLATIVE"
+      ]
+    },
+    "products": {
+      "lemma": "products",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "music": {
+      "lemma": "music",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "MEDIA",
+        "AUDITORY"
+      ]
+    },
+    "buy": {
+      "lemma": "buy",
+      "parent": "Action",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TRANSACTIONAL",
+        "COMMERCIAL"
+      ]
+    },
+    "data": {
+      "lemma": "data",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 1.0,
+      "flags": [
+        "ABSTRACT",
+        "TECHNICAL"
+      ]
+    },
+    "make": {
+      "lemma": "make",
+      "parent": "Action",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "CONSTRUCTIVE",
+        "POLYSEMOUS"
+      ]
+    },
+    "them": {
+      "lemma": "them",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PRONOUN",
+        "PLURAL"
+      ]
+    },
+    "should": {
+      "lemma": "should",
+      "parent": "ObligationModal",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "DEONTIC",
+        "LOGIC"
+      ]
+    },
+    "product": {
+      "lemma": "product",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TANGIBLE",
+        "COMMODITY"
+      ]
+    },
+    "system": {
+      "lemma": "system",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 1.0,
+      "flags": [
+        "TECHNICAL",
+        "STRUCTURAL"
+      ]
+    },
+    "post": {
+      "lemma": "post",
+      "parent": "Action",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS",
+        "NETWORK_OPERATION",
+        "PUBLICATION"
+      ]
+    },
+    "her": {
+      "lemma": "her",
+      "parent": "PossessiveSpecifier",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "PRONOUN",
+        "POLYSEMOUS"
+      ]
+    },
+    "city": {
+      "lemma": "city",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "GEOSPATIAL",
+        "CIVIC"
+      ]
+    },
+    "add": {
+      "lemma": "add",
+      "parent": "UnionOperator",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "MATHEMATICAL",
+        "LOGIC"
+      ]
+    },
+    "policy": {
+      "lemma": "policy",
+      "parent": "AbstractObject",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "GOVERNANCE",
+        "CONSTRAINT"
+      ]
+    },
+    "number": {
+      "lemma": "number",
+      "parent": "NumericQuantifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "MATHEMATICAL",
+        "VALUE"
+      ]
+    },
+    "such": {
+      "lemma": "such",
+      "parent": "ReferenceMarker",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "DEMONSTRATIVE",
+        "COMPARATIVE"
+      ]
+    },
+    "please": {
+      "lemma": "please",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "POLITENESS",
+        "DISCOURSE"
+      ]
+    },
+    "available": {
+      "lemma": "available",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.95,
+      "flags": [
+        "STATUS",
+        "ACCESSIBILITY"
+      ]
+    },
+    "copyright": {
+      "lemma": "copyright",
+      "parent": "AbstractObject",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "LEGAL",
+        "PROPERTY"
+      ]
+    },
+    "support": {
+      "lemma": "support",
+      "parent": "SupportRelation",
+      "kind": "Property",
+      "confidence": 1.0,
+      "flags": [
+        "DEPENDENCY",
+        "TECHNICAL"
+      ]
+    },
+    "message": {
+      "lemma": "message",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "COMMUNICATION",
+        "PACKET"
+      ]
+    },
+    "after": {
+      "lemma": "after",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "TEMPORAL",
+        "FLOW_CONTROL"
+      ]
+    },
+    "best": {
+      "lemma": "best",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "SUPERLATIVE",
+        "QUALITATIVE"
+      ]
+    },
+    "software": {
+      "lemma": "software",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "EXECUTABLE",
+        "TECHNICAL"
+      ]
+    },
+    "then": {
+      "lemma": "then",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "TEMPORAL",
+        "LOGICAL"
+      ]
+    },
+    "jan": {
+      "lemma": "jan",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "ABBREVIATION",
+        "CALENDAR"
+      ]
+    },
+    "good": {
+      "lemma": "good",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "QUALITATIVE",
+        "POSITIVE"
+      ]
+    },
+    "video": {
+      "lemma": "video",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "MEDIA",
+        "VISUAL"
+      ]
+    },
+    "well": {
+      "lemma": "well",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "ADVERBIAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "where": {
+      "lemma": "where",
+      "parent": "InterrogativeSpecifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL",
+        "QUERY"
+      ]
+    },
+    "info": {
+      "lemma": "info",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "ABBREVIATION",
+        "ABSTRACT"
+      ]
+    },
+    "rights": {
+      "lemma": "rights",
+      "parent": "AbstractObject",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "LEGAL",
+        "PLURAL"
+      ]
+    },
+    "public": {
+      "lemma": "public",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "ACCESS_MODIFIER"
+      ]
+    },
+    "books": {
+      "lemma": "books",
+      "parent": "PhysicalObject",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "high": {
+      "lemma": "high",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.88,
+      "flags": []
+    },
+    "school": {
+      "lemma": "school",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "INSTITUTION"
+      ]
+    },
+    "through": {
+      "lemma": "through",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.92,
+      "flags": [
+        "SPATIAL"
+      ]
+    },
+    "each": {
+      "lemma": "each",
+      "parent": "UniversalQuantifier",
+      "kind": "Property",
+      "confidence": 0.98,
+      "flags": [
+        "DISTRIBUTIVE"
+      ]
+    },
+    "links": {
+      "lemma": "links",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "NETWORK"
+      ]
+    },
+    "she": {
+      "lemma": "she",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PRONOUN"
+      ]
+    },
+    "review": {
+      "lemma": "review",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "years": {
+      "lemma": "years",
+      "parent": "TemporalDimension",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "UNIT"
+      ]
+    },
+    "order": {
+      "lemma": "order",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "very": {
+      "lemma": "very",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "INTENSIFIER"
+      ]
+    },
+    "privacy": {
+      "lemma": "privacy",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.92,
+      "flags": [
+        "SECURITY"
+      ]
+    },
+    "book": {
+      "lemma": "book",
+      "parent": "PhysicalObject",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "items": {
+      "lemma": "items",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "PLURAL"
+      ]
+    },
+    "company": {
+      "lemma": "company",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "read": {
+      "lemma": "read",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "IO_OPERATION"
+      ]
+    },
+    "group": {
+      "lemma": "group",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS"
+      ]
+    },
+    "need": {
+      "lemma": "need",
+      "parent": "ObligationModal",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "DEPENDENCY"
+      ]
+    },
+    "many": {
+      "lemma": "many",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": []
+    },
+    "user": {
+      "lemma": "user",
+      "parent": "TargetAgentReference",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": []
+    },
+    "said": {
+      "lemma": "said",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.75,
+      "flags": [
+        "COMMUNICATION",
+        "PAST_TENSE"
+      ]
+    },
+    "de": {
+      "lemma": "de",
+      "parent": "GenitiveRelation",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "FOREIGN_TERM"
+      ]
+    },
+    "does": {
+      "lemma": "does",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "AUXILIARY"
+      ]
+    },
+    "set": {
+      "lemma": "set",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS",
+        "MATHEMATICAL"
+      ]
+    },
+    "under": {
+      "lemma": "under",
+      "parent": "ContainmentRelation",
+      "kind": "Property",
+      "confidence": 0.88,
+      "flags": [
+        "HIERARCHICAL"
+      ]
+    },
+    "general": {
+      "lemma": "general",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": []
+    },
+    "research": {
+      "lemma": "research",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": []
+    },
+    "university": {
+      "lemma": "university",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "INSTITUTION"
+      ]
+    },
+    "january": {
+      "lemma": "january",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "SPECIFIC",
+        "CYCLICAL"
+      ]
+    },
+    "mail": {
+      "lemma": "mail",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "COMMUNICATION",
+        "POLYSEMOUS"
+      ]
+    },
+    "full": {
+      "lemma": "full",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "QUANTITATIVE",
+        "STATE_DESCRIPTOR"
+      ]
+    },
+    "map": {
+      "lemma": "map",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "TECHNICAL",
+        "POLYSEMOUS",
+        "TOPOLOGICAL"
+      ]
+    },
+    "reviews": {
+      "lemma": "reviews",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "FEEDBACK",
+        "SOCIAL"
+      ]
+    },
+    "program": {
+      "lemma": "program",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TECHNICAL",
+        "EXECUTABLE"
+      ]
+    },
+    "life": {
+      "lemma": "life",
+      "parent": "State",
+      "kind": "State",
+      "confidence": 0.8,
+      "flags": [
+        "ABSTRACT",
+        "BIOLOGICAL"
+      ]
+    },
+    "know": {
+      "lemma": "know",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "COGNITIVE",
+        "EPISTEMIC"
+      ]
+    },
+    "games": {
+      "lemma": "games",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "ENTERTAINMENT",
+        "SIMULATION"
+      ]
+    },
+    "way": {
+      "lemma": "way",
+      "parent": "DirectionalVector",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "ABSTRACT",
+        "POLYSEMOUS"
+      ]
+    },
+    "days": {
+      "lemma": "days",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "UNIT",
+        "MEASUREMENT"
+      ]
+    },
+    "management": {
+      "lemma": "management",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "ADMINISTRATIVE",
+        "CONTROL"
+      ]
+    },
+    "part": {
+      "lemma": "part",
+      "parent": "AbstractObject",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "PARTITIVE",
+        "COMPONENT"
+      ]
+    },
+    "could": {
+      "lemma": "could",
+      "parent": "PossibilityModal",
+      "kind": "Property",
+      "confidence": 1.0,
+      "flags": [
+        "MODAL",
+        "AUXILIARY"
+      ]
+    },
+    "great": {
+      "lemma": "great",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "QUALITATIVE",
+        "SUBJECTIVE"
+      ]
+    },
+    "united": {
+      "lemma": "united",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.85,
+      "flags": [
+        "RELATIONAL",
+        "COLLECTIVE"
+      ]
+    },
+    "hotel": {
+      "lemma": "hotel",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PHYSICAL",
+        "SERVICE"
+      ]
+    },
+    "real": {
+      "lemma": "real",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.8,
+      "flags": [
+        "ONTOLOGICAL",
+        "POLYSEMOUS"
+      ]
+    },
+    "item": {
+      "lemma": "item",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "GENERIC",
+        "ENUMERABLE"
+      ]
+    },
+    "international": {
+      "lemma": "international",
+      "parent": "EnvironmentContext",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "GEOPOLITICAL",
+        "SCOPE"
+      ]
+    },
+    "center": {
+      "lemma": "center",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL",
+        "GEOMETRIC"
+      ]
+    },
+    "ebay": {
+      "lemma": "ebay",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "PROPER_NOUN",
+        "SPECIFIC"
+      ]
+    },
+    "must": {
+      "lemma": "must",
+      "parent": "ObligationModal",
+      "kind": "Property",
+      "confidence": 1.0,
+      "flags": [
+        "MODAL",
+        "LOGIC"
+      ]
+    },
+    "store": {
+      "lemma": "store",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "PHYSICAL"
+      ]
+    },
+    "travel": {
+      "lemma": "travel",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "MOVEMENT",
+        "PHYSICAL"
+      ]
+    },
+    "comments": {
+      "lemma": "comments",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TEXT",
+        "COMMUNICATION"
+      ]
+    },
+    "made": {
+      "lemma": "made",
+      "parent": "UtilizationAction",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "PAST_TENSE",
+        "CONSTRUCTIVE"
+      ]
+    },
+    "development": {
+      "lemma": "development",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "PROGRESSIVE",
+        "TECHNICAL"
+      ]
+    },
+    "report": {
+      "lemma": "report",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "DOCUMENT",
+        "INFORMATIONAL"
+      ]
+    },
+    "off": {
+      "lemma": "off",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "BINARY",
+        "INACTIVE"
+      ]
+    },
+    "member": {
+      "lemma": "member",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "SOCIAL",
+        "SYSTEMS"
+      ]
+    },
+    "details": {
+      "lemma": "details",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "INFORMATION"
+      ]
+    },
+    "line": {
+      "lemma": "line",
+      "parent": "LinearStructure",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "GEOMETRY",
+        "TEXTUAL"
+      ]
+    },
+    "terms": {
+      "lemma": "terms",
+      "parent": "ConstraintDefinition",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "LEGAL",
+        "CONDITIONAL"
+      ]
+    },
+    "before": {
+      "lemma": "before",
+      "parent": "SequentialOperator",
+      "kind": "Property",
+      "confidence": 0.98,
+      "flags": [
+        "TEMPORAL",
+        "ORDERING"
+      ]
+    },
+    "hotels": {
+      "lemma": "hotels",
+      "parent": "CommercialEntity",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PHYSICAL",
+        "BUSINESS"
+      ]
+    },
+    "did": {
+      "lemma": "did",
+      "parent": "ExecutionOperator",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "PAST_TENSE",
+        "AUXILIARY"
+      ]
+    },
+    "send": {
+      "lemma": "send",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.95,
+      "flags": [
+        "COMMUNICATION",
+        "DATA_TRANSFER"
+      ]
+    },
+    "right": {
+      "lemma": "right",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "SPATIAL"
+      ]
+    },
+    "type": {
+      "lemma": "type",
+      "parent": "IdentifierAttribute",
+      "kind": "Property",
+      "confidence": 0.92,
+      "flags": [
+        "CLASSIFICATION",
+        "POLYSEMOUS"
+      ]
+    },
+    "because": {
+      "lemma": "because",
+      "parent": "CausalOperator",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "LOGIC",
+        "RELATIONAL"
+      ]
+    },
+    "local": {
+      "lemma": "local",
+      "parent": "ProximalReference",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL",
+        "SCOPE"
+      ]
+    },
+    "those": {
+      "lemma": "those",
+      "parent": "DistalReference",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "DEMONSTRATIVE",
+        "PLURAL"
+      ]
+    },
+    "using": {
+      "lemma": "using",
+      "parent": "UtilizationAction",
+      "kind": "Action",
+      "confidence": 0.98,
+      "flags": [
+        "INSTRUMENTAL"
+      ]
+    },
+    "results": {
+      "lemma": "results",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "OUTPUT",
+        "CONSEQUENTIAL"
+      ]
+    },
+    "office": {
+      "lemma": "office",
+      "parent": "FacilityEntity",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "PHYSICAL",
+        "ORGANIZATIONAL"
+      ]
+    },
+    "education": {
+      "lemma": "education",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "ABSTRACT",
+        "INSTITUTIONAL"
+      ]
+    },
+    "national": {
+      "lemma": "national",
+      "parent": "ScopeAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "GEOPOLITICAL",
+        "EXTENT"
+      ]
+    },
+    "car": {
+      "lemma": "car",
+      "parent": "TransportMechanism",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "PHYSICAL",
+        "VEHICULAR"
+      ]
+    },
+    "design": {
+      "lemma": "design",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "ABSTRACT",
+        "CREATIVE"
+      ]
+    },
+    "take": {
+      "lemma": "take",
+      "parent": "AcquisitionAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "TRANSITIVE"
+      ]
+    },
+    "posted": {
+      "lemma": "posted",
+      "parent": "PublicationState",
+      "kind": "State",
+      "confidence": 0.88,
+      "flags": [
+        "DIGITAL",
+        "STATUS"
+      ]
+    },
+    "internet": {
+      "lemma": "internet",
+      "parent": "NetworkSystem",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "TECHNICAL",
+        "GLOBAL"
+      ]
+    },
+    "address": {
+      "lemma": "address",
+      "parent": "PointLocation",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "IDENTIFIER",
+        "SPATIAL"
+      ]
+    },
+    "community": {
+      "lemma": "community",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "SOCIAL",
+        "GROUP"
+      ]
+    },
+    "within": {
+      "lemma": "within",
+      "parent": "ContainmentRelation",
+      "kind": "Property",
+      "confidence": 0.98,
+      "flags": [
+        "SPATIAL",
+        "PREPOSITIONAL"
+      ]
+    },
+    "states": {
+      "lemma": "states",
+      "parent": "GeoPoliticalEntity",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "POLYSEMOUS",
+        "REGIONAL"
+      ]
+    },
+    "area": {
+      "lemma": "area",
+      "parent": "SpatialRegion",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "DIMENSIONAL"
+      ]
+    },
+    "want": {
+      "lemma": "want",
+      "parent": "IntentState",
+      "kind": "State",
+      "confidence": 0.92,
+      "flags": [
+        "PSYCHOLOGICAL",
+        "REQUIREMENT"
+      ]
+    },
+    "phone": {
+      "lemma": "phone",
+      "parent": "InterfaceUnit",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "HARDWARE",
+        "COMMUNICATION"
+      ]
+    },
+    "dvd": {
+      "lemma": "dvd",
+      "parent": "PhysicalObject",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "HARDWARE",
+        "STORAGE_MEDIUM"
+      ]
+    },
+    "shipping": {
+      "lemma": "shipping",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "LOGISTICS",
+        "COMMERCE"
+      ]
+    },
+    "reserved": {
+      "lemma": "reserved",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "ALLOCATION",
+        "RESTRICTIVE"
+      ]
+    },
+    "subject": {
+      "lemma": "subject",
+      "parent": "RoleDefinition",
+      "kind": "Entity",
+      "confidence": 0.88,
+      "flags": [
+        "GRAMMATICAL",
+        "SECURITY_CONTEXT"
+      ]
+    },
+    "between": {
+      "lemma": "between",
+      "parent": "RelationalOperator",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "SPATIAL",
+        "COMPARATIVE"
+      ]
+    },
+    "forum": {
+      "lemma": "forum",
+      "parent": "NetworkSystem",
+      "kind": "Entity",
+      "confidence": 0.9,
+      "flags": [
+        "SOCIAL",
+        "COMMUNICATION"
+      ]
+    },
+    "family": {
+      "lemma": "family",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "TAXONOMIC",
+        "GROUPING"
+      ]
+    },
+    "long": {
+      "lemma": "long",
+      "parent": "ScopeAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "DIMENSIONAL",
+        "DATA_TYPE"
+      ]
+    },
+    "based": {
+      "lemma": "based",
+      "parent": "SupportRelation",
+      "kind": "Property",
+      "confidence": 0.92,
+      "flags": [
+        "DEPENDENCY",
+        "FOUNDATIONAL"
+      ]
+    },
+    "code": {
+      "lemma": "code",
+      "parent": "SpecificationEntity",
+      "kind": "Entity",
+      "confidence": 0.98,
+      "flags": [
+        "TECHNICAL",
+        "INSTRUCTIONAL"
+      ]
+    },
+    "show": {
+      "lemma": "show",
+      "parent": "TransmissionAction",
+      "kind": "Action",
+      "confidence": 0.85,
+      "flags": [
+        "IO_OPERATION",
+        "VISUAL"
+      ]
+    },
+    "even": {
+      "lemma": "even",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "MATHEMATICAL",
+        "PARITY"
+      ]
+    },
+    "black": {
+      "lemma": "black",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "VISUAL",
+        "COLOR"
+      ]
+    },
+    "check": {
+      "lemma": "check",
+      "parent": "QueryAction",
+      "kind": "Action",
+      "confidence": 0.9,
+      "flags": [
+        "VALIDATION",
+        "VERIFICATION"
+      ]
+    },
+    "special": {
+      "lemma": "special",
+      "parent": "NoveltyAttribute",
+      "kind": "Property",
+      "confidence": 0.85,
+      "flags": [
+        "DISTINCTION",
+        "EXCEPTIONAL"
+      ]
+    },
+    "prices": {
+      "lemma": "prices",
+      "parent": "ValueAttribute",
+      "kind": "Property",
+      "confidence": 0.9,
+      "flags": [
+        "ECONOMIC",
+        "NUMERIC"
+      ]
+    },
+    "website": {
+      "lemma": "website",
+      "parent": "NetworkSystem",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "WEB",
+        "COMPOSITE"
+      ]
+    },
+    "index": {
+      "lemma": "index",
+      "parent": "ReferenceMarker",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "DATABASE",
+        "POINTER"
+      ]
+    },
+    "being": {
+      "lemma": "being",
+      "parent": "ExistentialRoot",
+      "kind": "State",
+      "confidence": 0.8,
+      "flags": [
+        "ONTOLOGICAL",
+        "ABSTRACT"
+      ]
+    },
+    "women": {
+      "lemma": "women",
+      "parent": "CollectiveAgentReference",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "BIOLOGICAL",
+        "PLURAL"
+      ]
+    },
+    "much": {
+      "lemma": "much",
+      "parent": "AugmentativeQuantifier",
+      "kind": "Property",
+      "confidence": 0.95,
+      "flags": [
+        "QUANTITATIVE",
+        "UNCOUNTABLE"
+      ]
+    },
+    "sign": {
+      "lemma": "sign",
+      "parent": "IdentifierAttribute",
+      "kind": "Entity",
+      "confidence": 0.8,
+      "flags": [
+        "POLYSEMOUS",
+        "SEMIOTIC"
+      ]
+    },
+    "file": {
+      "lemma": "file",
+      "parent": "DataEntity",
+      "kind": "Entity",
+      "confidence": 0.99,
+      "flags": [
+        "OS_PRIMITIVE",
+        "STORAGE"
+      ]
+    },
+    "link": {
+      "lemma": "link",
+      "parent": "ReferenceMarker",
+      "kind": "Entity",
+      "confidence": 0.92,
+      "flags": [
+        "WEB",
+        "CONNECTIVE"
+      ]
+    },
+    "open": {
+      "lemma": "open",
+      "parent": "SystemState",
+      "kind": "State",
+      "confidence": 0.9,
+      "flags": [
+        "ACCESSIBILITY",
+        "POLYSEMOUS"
+      ]
+    },
+    "today": {
+      "lemma": "today",
+      "parent": "TemporalDimension",
+      "kind": "Entity",
+      "confidence": 0.95,
+      "flags": [
+        "TEMPORAL",
+        "INDEXICAL"
+      ]
+    },
+    "technology": {
+      "lemma": "technology",
+      "parent": "System",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "ABSTRACT",
+        "COLLECTIVE"
+      ]
+    },
+    "south": {
+      "lemma": "south",
+      "parent": "DirectionalVector",
+      "kind": "Property",
+      "confidence": 0.99,
+      "flags": [
+        "SPATIAL",
+        "GEOGRAPHIC"
+      ]
+    },
+    "case": {
+      "lemma": "case",
+      "parent": "ConditionalOperator",
+      "kind": "Entity",
+      "confidence": 0.85,
+      "flags": [
+        "LOGIC",
+        "POLYSEMOUS"
+      ]
+    },
+    "project": {
+      "lemma": "project",
+      "parent": "Process",
+      "kind": "Action",
+      "confidence": 0.88,
+      "flags": [
+        "MANAGEMENT",
+        "ORGANIZATIONAL"
+      ]
+    }
+  },
+  "statistics": {
+    "total_files": 14,
+    "total_entries": 420,
+    "unique_lemmas": 420,
+    "duplicates_found": 0,
+    "conflicts_resolved": 0,
+    "parent_distribution": {
+      "DataEntity": 58,
+      "ValueAttribute": 42,
+      "TemporalDimension": 38,
+      "System": 26,
+      "Process": 26,
+      "TargetAgentReference": 22,
+      "SystemState": 20,
+      "DirectionalVector": 20,
+      "CommercialEntity": 20,
+      "RoleDefinition": 18,
+      "PointLocation": 16,
+      "GeoPoliticalEntity": 16,
+      "SpecificationEntity": 16,
+      "SequentialOperator": 16,
+      "TransmissionAction": 16,
+      "InterfaceUnit": 16,
+      "UnionOperator": 14,
+      "PossessiveSpecifier": 14,
+      "AugmentativeQuantifier": 14,
+      "CollectiveAgentReference": 14,
+      "RelationalOperator": 14,
+      "ExecutionOperator": 14,
+      "VisualMedia": 12,
+      "AcquisitionAction": 12,
+      "QueryAction": 12,
+      "ScopeAttribute": 10,
+      "UtilizationAction": 10,
+      "ContainmentRelation": 8,
+      "SupportRelation": 8,
+      "ProximalReference": 8,
+      "UniversalQuantifier": 8,
+      "PossessionState": 8,
+      "ConstituentEntity": 8,
+      "ConditionalOperator": 8,
+      "NetworkSystem": 8,
+      "AggregationValue": 8,
+      "SpatialRegion": 8,
+      "PhysicalObject": 8,
+      "SelectionSpecifier": 8,
+      "IdentifierAttribute": 8,
+      "InterrogativeSpecifier": 8,
+      "ObligationModal": 8,
+      "ReferenceMarker": 8,
+      "AbstractObject": 8,
+      "IdentityCopula": 6,
+      "DistalReference": 6,
+      "NegationOperator": 6,
+      "PastIdentityCopula": 6,
+      "IdentityAttribute": 6,
+      "FacilityEntity": 6,
+      "NumericQuantifier": 6,
+      "LinearStructure": 6,
+      "State": 6,
+      "Action": 6,
+      "GenitiveRelation": 4,
+      "DestinationVector": 4,
+      "ExistentialRoot": 4,
+      "NoveltyAttribute": 4,
+      "IndefiniteSpecifier": 4,
+      "StructuralComponent": 4,
+      "OriginAttribute": 4,
+      "SimulationProcess": 4,
+      "EnergyResource": 4,
+      "MaintenanceAction": 4,
+      "ComputationalDevice": 4,
+      "ConstraintAbsence": 4,
+      "ConstraintDefinition": 4,
+      "CausalOperator": 4,
+      "RestrictiveModifier": 4,
+      "NetworkNode": 4,
+      "IntentState": 4,
+      "AlternativeSpecifier": 4,
+      "ContrastiveOperator": 4,
+      "PossibilityModal": 4,
+      "EnvironmentContext": 4,
+      "DefiniteSpecifier": 2,
+      "IntersectionOperator": 2,
+      "BenefactiveRelation": 2,
+      "AgencyRelation": 2,
+      "ComitativeRelation": 2,
+      "InanimateReference": 2,
+      "SourceVector": 2,
+      "FutureModal": 2,
+      "DiscoveryEvent": 2,
+      "RecreationalActivity": 2,
+      "AssociationState": 2,
+      "TerminationState": 2,
+      "CapabilityModal": 2,
+      "UnitQuantifier": 2,
+      "ExteriorState": 2,
+      "TransportMechanism": 2,
+      "PublicationState": 2
+    },
+    "pos_distribution": {
+      "Unknown": 840
+    },
+    "domain_distribution": {
+      "unspecified": 840
+    },
+    "confidence_histogram": {
+      "0.9-0.99": 564,
+      "0.8-0.89": 252,
+      "1.0-1.09": 16,
+      "0.7-0.79": 8
+    },
+    "top_50_flags": {
+      "POLYSEMOUS": 132,
+      "TECHNICAL": 86,
+      "ABSTRACT": 50,
+      "SPATIAL": 44,
+      "TEMPORAL": 40,
+      "PLURAL": 36,
+      "LOGIC": 26,
+      "LOGICAL": 22,
+      "COMMUNICATION": 18,
+      "PRONOMINAL": 14,
+      "PHYSICAL": 14,
+      "PRONOUN": 14,
+      "AUXILIARY": 14,
+      "RELATIONAL": 12,
+      "COMPARATIVE": 12,
+      "UNIT": 12,
+      "DEICTIC": 10,
+      "COLLECTIVE": 10,
+      "SCALAR": 10,
+      "PAST_TENSE": 10,
+      "MATHEMATICAL": 10,
+      "ORGANIZATIONAL": 10,
+      "VISUAL": 10,
+      "QUANTITATIVE": 10,
+      "SOCIAL": 10,
+      "SCOPE": 8,
+      "EXISTENTIAL": 8,
+      "DEPENDENCY": 8,
+      "PROPER_NOUN": 8,
+      "LOCATION": 8,
+      "HARDWARE": 8,
+      "NUMERIC": 8,
+      "HIERARCHICAL": 8,
+      "SPECIFIC": 8,
+      "ABBREVIATION": 8,
+      "GRAMMATICAL": 6,
+      "CAUSAL": 6,
+      "INSTRUMENTAL": 6,
+      "ONTOLOGICAL": 6,
+      "METADATA": 6,
+      "QUANTIFIER": 6,
+      "GEOGRAPHIC": 6,
+      "GENERIC": 6,
+      "ORDERING": 6,
+      "SYSTEMS": 6,
+      "DIMENSIONAL": 6,
+      "INSTITUTIONAL": 6,
+      "PREPOSITIONAL": 6,
+      "COMMERCIAL": 6,
+      "MEDIA": 6
+    }
+  }
+}
